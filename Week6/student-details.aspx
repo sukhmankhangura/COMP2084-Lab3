@@ -12,7 +12,7 @@
     </div>
     <div class="form-group">
         <label for="txtEDate" class="col-sm-3 control-label">Enrollment Date:</label>
-        <asp:TextBox ID="TxtEDate" runat="server" Text='<%# Bind("Date", "{0:yyyy-MM-dd}") %>' required />
+        <asp:TextBox ID="TxtEDate" runat="server" Text='<%# Bind("Date", "{0:yyyy-MM-dd}") %>'  required />
       
       </div>
    
